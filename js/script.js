@@ -10,8 +10,8 @@ function enterClicked() {
   // input
   const first = parseInt(document.getElementById("first").value);
   const second = parseInt(document.getElementById("second").value);
-  var number = 0;
-  var time = 0;
+  let number = 0;
+  let time = 0;
   // process
   while (time < second) {
     number = number + first;
